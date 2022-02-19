@@ -151,6 +151,7 @@ body::after {
   border: 1px solid #afc1c5;
   padding: 20px 0px;
   border-radius: 10px;
+  background: url("../img/form/bg.png") 0 0/cover no-repeat;
 }
 
 .popup_show {
@@ -181,9 +182,8 @@ body::after {
   visibility: hidden;
   transform: scale(0);
   transition: transform 0.3s ease 0s;
+  background-color: #f8f1f4;
   box-shadow: 0 0 20px rgba(64, 122, 97, 0.8);
-  background: url("../img/form/bg.png") 0 0/cover no-repeat;
-  background-color: #fff;
   padding: 20px;
   width: 100%;
   max-width: 900px;
@@ -275,7 +275,7 @@ textarea.form__input {
 }
 .tabs__radio-line {
   position: absolute;
-  bottom: 20px;
+  bottom: 0px;
   right: 20px;
 }
 .tabs__navigation {
