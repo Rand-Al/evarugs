@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Форма заявки</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header id="header" class="header">
+			<div class="header__container">
+				<div class="header__column  header__column_tel">
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="tel:12345678" class="menu__link">+375 33 333-33-33 (МТС)</a></li>
+								<li class="menu__item"><a href="tel:12345678" class="menu__link">+375 29 292-29-29 (VEL)</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="header__column header__column_inst">
+					<a href="#" class="header__link">Посетите нашу страницу</a>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<main class="form-page">
+			<div class="form-page__container">
+				<a href="index.html" class="form-page__link">На главную</a>
+			</div>
+			<form action="#" data-dev class="form">
+				<div data-tabs data-tabs-hash data-tabs-animate class="tabs">
+					<nav data-tabs-titles class="tabs__navigation tabs__navigation_out">
+						<button type="button" class="tabs__title  tabs__title_top _tab-active">Выберите цвет:</button>
+						<button type="button" class="tabs__title tabs__title_bottom">Введите контактные данные:</button>
+					</nav>
+					<div data-tabs-body class="tabs__content tabs__content_out">
+						<div class="tabs__body">
+							<div data-tabs class="tabs">
+								<nav data-tabs-titles class="tabs__navigation tabs__navigation_inner">
+									<button type="button" class="tabs__title tabs__title_inner _tab-active"></button>
+									<button type="button" class="tabs__title tabs__title_inner"></button>
+									<button type="button" class="tabs__title tabs__title_inner"></button>
+								</nav>
+								<div data-tabs-body class="tabs__content tabs__content_inner">
+
+									<div class="tabs__body tabs__body_inner">
+										<picture><source srcset="img/form/03.webp" type="image/webp"><img src="img/form/03.png" alt=""></picture>
+										<div class="tabs__radio-line">
+											<input type="radio" name="color" value="red" id="color-red" class="tabs__input tabs__input_red">
+											<label for="color-red" class="tabs__label tabs__label_red">Выбрать этот цвет</label>
+										</div>
+									</div>
+									<div class="tabs__body tabs__body_inner">
+										<picture><source srcset="img/form/02.webp" type="image/webp"><img src="img/form/02.png" alt=""></picture>
+										<div class="tabs__radio-line">
+											<input type="radio" name="color" value="brown" id="color-brown" class="tabs__input tabs__input_brown">
+											<label for="color-brown" class="tabs__label tabs__label_brown">Выбрать этот
+												цвет</label>
+										</div>
+									</div>
+									<div class="tabs__body tabs__body_inner">
+										<picture><source srcset="img/form/01.webp" type="image/webp"><img src="img/form/01.png" alt=""></picture>
+										<div class="tabs__radio-line">
+											<input type="radio" name="color" value="black" id="color-black" class="tabs__input tabs__input_black">
+											<label for="color-black" class="tabs__label tabs__label_black">Выбрать этот
+												цвет</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tabs__body ">
+							<div class="tabs__wrapper">
+								<div class="form__line form__line_input">
+									<div class="form__wrapper">
+										<input autocomplete="off" type="text" name="form[name]" data-error="Ошибка" placeholder="Ваше Имя" class="form__input">
+									</div>
+									<div class="form__wrapper">
+										<input autocomplete="off" type="text" name="form[tel]" data-error="Ошибка" placeholder="Ваш телефон" class="form__input">
+									</div>
+								</div>
+								<div class="form__line form__line_textarea">
+									<textarea autocomplete="off" name="form[]" placeholder="Ваше сообщение (марка автомобиля, модель автомобиля, цвет коврика)" data-error="Ошибка" class="form__input"></textarea>
+									<button type="submit" class="button">Отправить</button>
+								</div>
+							</div>
+						</div>
+						<!-- <div class="tabs__body">
+
+						</div> -->
+					</div>
+				</div>
+			</form>
+		</main>
+		<footer id="footer" class="footer">
+			<div class="footer__container">
+				<div class="footer__body body-footer">
+					<div class="body-footer__column body-footer__column_soc">
+						<h3 class="body-footer__title">
+							МЫ В СОЦИАЛЬНЫХ СЕТЯХ
+						</h3>
+						<a class="body-footer__inst" href="#"><picture><source srcset="img/footer/inst.webp" type="image/webp"><img src="img/footer/inst.png" alt=""></picture></a>
+					</div>
+					<div class="body-footer__column body-footer__column_tel">
+						<h3 class="body-footer__title">
+							КОНТАКТНЫЕ ТЕЛЕФОНЫ
+						</h3>
+						<nav class="body-footer__menu">
+							<ul class="body-footer__list">
+								<li class="body-footer__item"><a href="tel:12345678" class="body-footer__link">+375 29 292-29-29
+										(VEL)</a></li>
+								<li class="body-footer__item"><a href="tel:12345678" class="body-footer__link">+375 33 333-33-33
+										(МТС)</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="body-footer__column body-footer__column_us">
+						<h3 class="body-footer__title">
+							О НАС
+						</h3>
+						<p class="body-footer__text">
+							Индивидуальное изготовление EVA ковриков для вашего автомобиля
+						</p>
+					</div>
+				</div>
+				<div class="footer__bg">
+					<picture><source srcset="img/decor/triangles.webp" type="image/webp"><img src="img/decor/triangles.png" alt=""></picture>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"><picture><source srcset="img/form/0101.webp" type="image/webp"><img src="img/form/0101.png" alt=""></picture></button>
+				<div class="popup__text">
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20220220152149"></script>
+</body>
+
+</html>
