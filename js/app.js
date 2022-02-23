@@ -4220,8 +4220,9 @@
             },
             breakpoints: {
                 320: {
-                    direction: "vertical",
-                    autoHeight: true
+                    direction: "horizontal",
+                    autoHeight: true,
+                    slidesPerView: 1
                 },
                 768: {
                     direction: "horizontal",
